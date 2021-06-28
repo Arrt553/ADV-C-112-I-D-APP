@@ -1,0 +1,78 @@
+body{
+    font-family: 'Kirang Haerang', cursive;
+    background-color: #07f547;
+    
+}
+.header_div img{
+    width: 100px;
+    height: auto;
+}
+.header_div{
+    background-color: white;
+    color: darkblue;
+    font-size: 35px;
+}
+.main_div{
+    margin-left: 15px;
+    background-color: deepskyblue;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px double whitesmoke;
+    width: 560px;
+}
+.main_div label{
+    background-color: #07f5d5;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px #f5ae07;
+}
+#camera,#snap{
+    border: 2px groove white;
+    width: 310px;
+    height: 310px;
+    box-shadow: 5px 5px 10px #fc4762;
+    cursor: not-allowed;
+}
+#camera:hover{
+    background-color: yellow;
+}
+#snap:hover{
+    background-color: yellow;
+}
+.main_div button{
+    width: 310px;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px #fc4762;
+    border: 5px dashed #fce238;
+}
+.footer_div{
+    margin-bottom: 50px;
+}
+.footer_div h4{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border: 5px groove #00ff8c;
+    box-shadow: 5px 5px 10px #88ff00;
+    padding: 10px;
+}
+.footer_div img{
+    width: 70px;
+    float: left;
+}
+.copy_right_footer{
+    position: fixed;
+    color: whitesmoke;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    line-height: 3px;
+    height: 50px;
+}
+.copy_right_footer:hover{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 25px;
+    background-color: wheat;
+    color:blue;
+}
